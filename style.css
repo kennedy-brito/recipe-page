@@ -46,12 +46,23 @@ h2{
   color: var(--brown-800);
 }
 
+hr{
+  border: 1px solid var(--stone-150);
+}
+
 .recipe-card {
   background-color: var(--white);
   padding: 30px;
   border: none;
   border-radius: 20px;
-  width: 45svw;
+  width: 50svw;
+  margin-top: 50px;
+}
+
+.preparation-time{
+  margin: 60px 30px;
+  padding: 20px;
+  background-color: var(--rose-50);
 }
 
 .recipe-card img{
@@ -77,6 +88,8 @@ tr{
   display: flex;
   width: 100%;
   text-align: left;
+  border: none;
+  border-bottom: 2px solid var(--stone-150);
 }
 
 td{
